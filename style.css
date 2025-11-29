@@ -30,8 +30,29 @@ border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 }
 
-.card-body {}
+.card-body {
+    padding: 20px;
+}
 
-.card-footer {}
+.card-footer {
+    background-color:pink;
+    padding: 20px;
+    border-radius: 10px;
+}
 
-.card-btn {}
+.card-btn {
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: aliceblu;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 1s;
+   
+}
+.card-btn:hover{
+background-color: palevioletred;
+color: white;
+box-shadow: 10px 10px 15px plum;
+}
